@@ -1,0 +1,67 @@
+.testmonials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.testmonials-container>h5 {
+    color: #00a78e;
+    font-size: 20px;
+    padding-bottom: 13px;
+}
+
+.testmonials-container>h2 {
+    padding: 4px 0px;
+    font-size: 26px;
+}
+
+.testmonials {
+    display: flex;
+    padding: 40px 64px 12px 64px;
+}
+
+.testmonial-container {
+    display: flex;
+    margin-right: 12px;
+}
+
+.testmonial-img {
+    padding-right: 12px;
+}
+
+.testmonial-img>img {
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+}
+
+.testmonial-name-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testmonial-name>h5 {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+
+.testmonial-name>h6 {
+    color: #646f87;
+    font-size: 12px;
+}
+
+.testmonial-rate {
+    margin-right: 40px;
+}
+
+.testmonial-rate:nth-child(1),.testmonial-rate:nth-child(2),.testmonial-rate:nth-child(3) {
+    color: #ffd700;
+}
+
+.testmonial-explain {
+    margin-top: 24px;
+    color: #646f87;
+}

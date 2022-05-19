@@ -1,0 +1,35 @@
+.status-container {
+    background: #f9f9f9;
+    padding: 80px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.status {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.status-info {
+    margin-left: 24px;
+}
+
+.status-info>h3 {
+    font-size: 32px;
+    color: #00a78e;
+}
+
+.status-info>h6 {
+    font-size: 14px;
+    padding-top: 8px;
+    color: #646f87;
+}
+
+.icon {
+    font-size: 54px;
+}
+
+.icon > i {
+    color: #808080;
+}

@@ -1,0 +1,73 @@
+.about-me {
+    display: flex;
+    padding: 80px 50px;
+}
+
+.about-me-img>img {
+    width: 100%;
+}
+
+.about-me-info {
+    padding: 0px 64px;
+}
+
+.about-me-info>h6 {
+    font-size: 24px;
+    color: #00a87e;
+}
+
+.about-me-info>h3 {
+    padding: 13px 0px;
+    font-size: 28px;
+}
+
+.about-me-explain {
+    padding: 8px 4px;
+    width: 80%;
+    font-size: 16px;
+}
+
+.about-me-img {
+    width: 40%;
+}
+
+.bar-status {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about-me-bar-graph {
+    margin-top: 16px;
+}
+
+.bar-status>h4 {
+    font-weight: 400;
+}
+
+.bar-line-inner {
+    background: #646f872b;
+    height: 10px;
+    margin-top: 12px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.bar-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00a87e;
+    height: 10px;
+    border-radius: 8px;
+    width: 85%;
+    animation-name: bar-animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+
+@keyframes bar-animation {
+    from {width: 0;}
+    to {width: 85%;}
+}
